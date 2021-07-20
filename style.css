@@ -301,4 +301,12 @@ footer ul li:nth-child(4) {
     padding: 10px 30px;
     text-transform: uppercase;
   }
+
+  .know-the-hotel .grid li.small {
+    flex-basis: 100%; /*coloquei 100% nas imagens*/
+  }
+
+  .know-the-hotel .grid li.large {
+    flex-basis: 100%;
+  }
 }
