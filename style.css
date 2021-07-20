@@ -303,10 +303,16 @@ footer ul li:nth-child(4) {
   }
 
   .know-the-hotel .grid li.small {
-    flex-basis: 100%; /*coloquei 100% nas imagens*/
+    flex-basis: 100%; /*coloquei 100% nas imagens pra elas ficarem uma abaixo da outra - la em cima tem o wrap por isso quebrou so usando o flex-basis*/
   }
 
   .know-the-hotel .grid li.large {
-    flex-basis: 100%;
+    flex-basis: 100%; /*coloquei 100% nas imagens pra elas ficarem uma abaixo da outra - la em cima tem o wrap por isso quebrou so usando o flex-basis
+    */
   }
+
+  .features .grid {
+    flex-direction: column;
+  }
+
 }
