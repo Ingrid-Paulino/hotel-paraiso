@@ -315,4 +315,7 @@ footer ul li:nth-child(4) {
     flex-direction: column;
   }
 
+    .newsletter button {
+      margin-top: 15px;
+    }
 }
